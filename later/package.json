@@ -1,0 +1,40 @@
+{
+  "name": "later",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "connect-redis": "^8.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.2",
+    "express-session": "^1.18.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.1",
+    "moran": "^0.0.11",
+    "nodemailer": "^6.10.1",
+    "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "portfinder": "^1.0.35",
+    "puppeteer": "^24.6.1"
+  },
+  "description": ""
+}
